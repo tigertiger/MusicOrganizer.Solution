@@ -6,13 +6,15 @@
 }
 </head>
 <body>
-<h1>Album Details </h1>
+  <div class="container">
+    <h4>Album Details </h4>
 
-<h2>@Model["album"].Title</h2>
-<h3>@Model["album"].Artist</h3>
-<h4>Genre: @Model["genre"].Descrip</h4>
+    <h5>@Model["album"].Title</h5>
+    <h5>@Model["album"].Artist</h5>
+    <p>Genre: @Model["genre"].Descrip</p>
 
-<a href='/genres/@Model["genre"].Id/albums/new'>Add an Album</a>
-<a href='/genres'>Back to Genre List</a>
+    <a href='/genres/@Model["genre"].Id/albums/new'>Add an Album</a>
+    <a href='/genres'>Back to Genre List</a>
+  </div>
 </body>
 </html>

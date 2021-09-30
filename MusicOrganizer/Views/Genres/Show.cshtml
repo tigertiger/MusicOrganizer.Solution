@@ -7,16 +7,18 @@
 }
 </head>
 <body>
-<h3>Your Albums</h3>
+  <div class="container">
+    <h4>Your Albums</h4>
 
-<ol>
-@foreach (Album album in @Model["albums"])
-{
-  <li><a href='/genres/@Model["genre"].Id/albums/@album.Id'>@album.Title</a></li>
-}
-</ol>
+    <ol>
+    @foreach (Album album in @Model["albums"])
+    {
+      <li><a href='/genres/@Model["genre"].Id/albums/@album.Id'>@album.Title</a></li>
+    }
+    </ol>
 
-<p><a href='/genres/@Model["genre"].Id/albums/new'>Add An Album</a></p>
-<p><a href='/genres'>Return to Genre Library</a></p>
+    <p><a href='/genres/@Model["genre"].Id/albums/new'>Add An Album</a></p>
+    <p><a href='/genres'>Return to Genre Library</a></p>
+  </div>
 </body>
 </html>

@@ -6,15 +6,17 @@
 }
 </head>
 <body>
-<h1>Add a new item to @Model.Descrip</h1>
+  <div class="container">
+    <h4>Add a @Model.Descrip Album</h4>
 
-<form action="/genres/@Model.Id/albums" method="post">
-  <input id="genreId" name="genreId" type="hidden" value="@Model.Id">
-  <label for="albumTitle">Album Title</label>
-  <input id="albumTitle" name="albumTitle" type="text">
-  <label for="albumArtist">Album Artist</label>
-  <input id="albumArtist" name="albumArtist" type="text">
-  <button type='submit'>Add</button>
-</form>
+    <form action="/genres/@Model.Id/albums" method="post">
+      <input id="genreId" name="genreId" type="hidden" value="@Model.Id">
+      <label for="albumTitle">Album Title</label>
+      <input id="albumTitle" name="albumTitle" type="text">
+      <label for="albumArtist">Album Artist</label>
+      <input id="albumArtist" name="albumArtist" type="text">
+      <button type='submit'>Add</button>
+    </form>
+  </div>
 </body>
 </html>
