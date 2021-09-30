@@ -46,6 +46,16 @@ namespace MusicOrganizer.Tests
       Assert.AreEqual(updatedTitle, titleResult);
       Assert.AreEqual(updatedArtist, artistResult);
     }
+
+    [TestMethod]
+    public void GetAll_ReturnsEmptyList_AlbumList()
+    {
+      List<Album> newList = new List<Album> {};
+
+      List<Album> result = Album.GetAll();
+
+      CollectionAssert.AreEqual(newList, result);
+    }
     
   }
 }
