@@ -4,23 +4,23 @@
 ##### By _**Melissa Schatz-Miller**_
 
 
-> _"It looks as if you're reorganizing your records."_
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"It looks as if you're reorganizing your records."_
 >
-> _"Yeah...."_
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Yeah...."_
 >
->  _"What is this? Um, chronological?"_
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"What is this? Um, chronological?"_
 >
-> _"No."_
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"No."_
 >
-> _"Not alphabetical."_
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Not alphabetical."_
 >
->  _"Nope."_
+>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Nope."_
 >
-> _"What?"_
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"What?"_
 >
->  _"Autobiographical."_
+>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Autobiographical."_
 >
->  _"No *@#$ing way."_
+>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"No *@#$ing way."_
 
 
 ## Technologies Used

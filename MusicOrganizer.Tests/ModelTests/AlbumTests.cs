@@ -14,6 +14,20 @@ namespace MusicOrganizer.Tests
       Album newAlbum = new Album("Ride the Lightning", "Metallica");
       Assert.AreEqual(typeof(Album), newAlbum.GetType());
     }
+
+    [TestMethod]
+    public void GetTitle_ReturnsTitle_String()
+    {
+      string title = "Astral Weeks";
+      string artist = "Van Morrison";
+
+      Album newAlbum = new Album(title, artist);
+      string titleResult = newAlbum.Title;
+      string artistResult = newAlbum.Artist;
+
+      Assert.AreEqual(title, titleResult);
+      Assert.AreEqual(artist, artistResult);
+    }
     
   }
 }
