@@ -1,17 +1,17 @@
 # _Remember CD Towers?_
 ## _A Music Organizer Solution_
 
-#### _"It looks as if you're reorganizing your records."_
-#### _"Yeah...."_
-#### _"What is this? Um, chronological?"_
-#### _"No."_
-#### _"Not alphabetical."_
-#### _"Nope."_
-#### _"What?"_
-#### _"Autobiographical."_
-#### _"No *@#$ing way."_
+> _"It looks as if you're reorganizing your records."_
+> _"Yeah...."_
+>  _"What is this? Um, chronological?"_
+> _"No."_
+> _"Not alphabetical."_
+>  _"Nope."_
+> _"What?"_
+>  _"Autobiographical."_
+>  _"No *@#$ing way."_
 
-#### By _**Melissa Schatz-Miller**_
+##### By _**Melissa Schatz-Miller**_
 
 ## Technologies Used
 
