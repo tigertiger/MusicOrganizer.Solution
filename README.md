@@ -1,6 +1,9 @@
 # _Remember CD Towers?_
 ## _A Music Organizer Solution_
 
+##### By _**Melissa Schatz-Miller**_
+
+
 > _"It looks as if you're reorganizing your records."_
 >
 > _"Yeah...."_
@@ -19,7 +22,6 @@
 >
 >  _"No *@#$ing way."_
 
-##### By _**Melissa Schatz-Miller**_
 
 ## Technologies Used
 

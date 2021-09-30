@@ -2,8 +2,15 @@ namespace MusicOrganizer.Models
 {
   public class Album
   {
-    // add constructors here!
-    // ex:
-    // public string Recipient {get; set;}
+  
+    public string Title { get; set; }
+    public string Artist { get; set; }
+
+    public Album (string title, string artist)
+    {
+      Title = title;
+      Artist = artist;
+    }
+
   }
 }
