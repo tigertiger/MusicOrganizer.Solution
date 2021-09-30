@@ -6,8 +6,14 @@ using System;
 namespace MusicOrganizer.Tests
 {
   [TestClass]
-  public class AlbumTests
+  public class AlbumTests : IDisposable
   {
+
+    public void Dispose()
+    {
+      Album.ClearAll();
+    }
+
     [TestMethod]
     public void AlbumConstructor_CreatesInstanceOfAlbum_Album()
     {
@@ -55,6 +61,34 @@ namespace MusicOrganizer.Tests
       List<Album> result = Album.GetAll();
 
       CollectionAssert.AreEqual(newList, result);
+    }
+
+    [TestMethod]
+    public void GetAll_ReturnsAlbums_AlbumList()
+    {
+      string title01 = "Cause of Death";
+      string artist01 = "Obituary";
+      string title02 = "Consuming Impulse";
+      string artist02 = "Pestilence";
+      Album newAlbum01 = new Album(title, artist);
+      Album newAlbum02 = new Album(title, artist);
+      List<Album> newList = new List<Album> { newAlbum01, newAlbum02};
+
+      List<Album> result = Album.GetAll();
+
+      CollectionAssert.AreEqual(newList, result);
+    }
+
+    [TestMethod]
+    public void GetId_AlbumsInstantiateWithAnIdAndGetReturns_Int()
+    {
+      string title = "CLPPNG";
+      string artist = "clipping";
+      Album newAlbum = new Album(title, artist);
+
+      int result = newAlbum.Id;
+
+      Assert.AreEqual(1, result);
     }
     
   }

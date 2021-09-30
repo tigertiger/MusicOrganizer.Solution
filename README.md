@@ -2,8 +2,8 @@
 ## _A Music Organizer Solution_
 
 ##### By _**Melissa Schatz-Miller**_
-
-
+  
+  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"It looks as if you're reorganizing your records."_  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Yeah...."_  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"What is this? Um, chronological?"_  
