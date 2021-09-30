@@ -70,8 +70,8 @@ namespace MusicOrganizer.Tests
       string artist01 = "Obituary";
       string title02 = "Consuming Impulse";
       string artist02 = "Pestilence";
-      Album newAlbum01 = new Album(title, artist);
-      Album newAlbum02 = new Album(title, artist);
+      Album newAlbum01 = new Album(title01, artist01);
+      Album newAlbum02 = new Album(title02, artist02);
       List<Album> newList = new List<Album> { newAlbum01, newAlbum02};
 
       List<Album> result = Album.GetAll();
@@ -91,5 +91,19 @@ namespace MusicOrganizer.Tests
       Assert.AreEqual(1, result);
     }
     
+    [TestMethod]
+    public void Find_ReturnsCorrectAlbum_Album()
+    {
+      string title01 = "Cause of Death";
+      string artist01 = "Obituary";
+      string title02 = "Consuming Impulse";
+      string artist02 = "Pestilence";
+      Album newAlbum01 = new Album(title01, artist01);
+      Album newAlbum02 = new Album(title02, artist02);
+
+      Album result = Album.Find(2);
+
+      Assert.AreEqual(newAlbum02, result);
+    }
   }
 }

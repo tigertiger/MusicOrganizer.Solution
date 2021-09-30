@@ -27,5 +27,10 @@ namespace MusicOrganizer.Models
       _collection.Clear();
     }
 
+    public static Album Find(int searchId)
+    {
+      return _collection[searchId -1];
+    }
+
   }
 }
