@@ -16,7 +16,7 @@ namespace MusicOrganizer.Tests
     }
 
     [TestMethod]
-    public void GetTitle_ReturnsTitle_String()
+    public void GetTitleAndArtist_ReturnsTitleAndArtist_StringString()
     {
       string title = "Astral Weeks";
       string artist = "Van Morrison";
@@ -27,6 +27,24 @@ namespace MusicOrganizer.Tests
 
       Assert.AreEqual(title, titleResult);
       Assert.AreEqual(artist, artistResult);
+    }
+
+    [TestMethod]
+    public void ChangeTitleAndArtist_ChangeTitleAndArtist_StringString()
+    {
+      string title = "Astral Weeks";
+      string artist = "Van Morrison";
+      Album newAlbum = new Album(title, artist);
+
+      string updatedTitle = "Mercenary";
+      string updatedArtist = "Bolt Thrower";
+      newAlbum.Title = updatedTitle;
+      newAlbum.Artist = updatedArtist;
+      string titleResult = newAlbum.Title;
+      string artistResult = newAlbum.Artist;
+
+      Assert.AreEqual(updatedTitle, titleResult);
+      Assert.AreEqual(updatedArtist, artistResult);
     }
     
   }

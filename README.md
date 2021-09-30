@@ -4,23 +4,15 @@
 ##### By _**Melissa Schatz-Miller**_
 
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"It looks as if you're reorganizing your records."_
->
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Yeah...."_
->
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"What is this? Um, chronological?"_
->
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"No."_
->
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Not alphabetical."_
->
->  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Nope."_
->
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"What?"_
->
->  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Autobiographical."_
->
->  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"No *@#$ing way."_
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"It looks as if you're reorganizing your records."_  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Yeah...."_  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"What is this? Um, chronological?"_  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"No."_  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Not alphabetical."_  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Nope."_  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"What?"_  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"Autobiographical."_  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"No *@#$ing way."_  
 
 
 ## Technologies Used
