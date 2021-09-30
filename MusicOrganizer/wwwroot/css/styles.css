@@ -1,0 +1,30 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .container {
+    padding: 3% 0 0 0;
+  }
+  
+  h1 {
+    padding: 2% 0;
+  }
+  
+  div#header {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:rgb(255, 243, 217);
+    background:rgba(11, 26, 26, 0.747);
+    padding:8px;
+  }
+
+  .column {
+    float:right;
+    width:10%;
+  }
+
+  .column a {
+    color:rgb(238, 235, 228);
+  }

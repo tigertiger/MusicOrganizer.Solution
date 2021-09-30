@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+@{
+  Layout = "_Layout";
+}
+</head>
+<body>
+  <div class="container">
+    <h1>Müj</h1>
+
+    <a href='/genres'><button>Your Genre Lists</button></a><br /><br />
+    <a href='/genres/new'><button>Add Genre List</button></a> <br /><br />
+    <form action="/albums/delete" method="post">
+    <button type="submit" name="button">Throw Away your Music</button>
+    </form>
+  </div>
+</body>
+</html>
